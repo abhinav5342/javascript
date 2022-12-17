@@ -10,7 +10,6 @@ Now , inside the callback , we get two arguments
 *response--This arguments contains functions using which we can prepare a
             response.
 *The createServer function returns to the server object.
-
 */
 const server = http.createServer(function exec(request,response){
     console.log(request.method);
